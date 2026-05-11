@@ -37,7 +37,7 @@ h1 {
     color: white;
     font-size: 400%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 h2 {
@@ -46,12 +46,22 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
 #pelaaNappi {
     font-size: 400%;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
     
 }
 
 #buttonWrap {
+    position: absolute;
     text-align: center;
 }
