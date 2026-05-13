@@ -3,6 +3,13 @@ body {
     margin: 0;
 }
 
+#taustaKuva {
+    background-image: url(kuvat/tausta.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 nav {
     background-color: rgb(53, 53, 53);
     display: flex;
@@ -56,7 +63,13 @@ h4 {
     font-size: 400%;
     position: absolute;
     left: 50%;
+    top: 45%;
+    padding: 1% 2%;
     transform: translate(-50%, 0%);
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 50px;
     
     
 }
