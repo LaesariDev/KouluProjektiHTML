@@ -1,17 +1,14 @@
 body {
     background-color: black;
     margin: 0;
-}
-
-#taustaKuva {
-    background-image: url(kuvat/tausta.png);
+    background-image: linear-gradient(rgba(167, 167, 167, 0.5), rgba(0, 0, 0, 0.5)), url("kuvat/tausta.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 nav {
-    background-color: rgb(53, 53, 53);
+    background: linear-gradient(rgb(0, 0, 0), rgb(53, 53, 53));
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -44,7 +41,7 @@ h1 {
     color: white;
     font-size: 400%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 14%;
 }
 
 h2 {
@@ -60,18 +57,25 @@ h4 {
 }
 
 #pelaaNappi {
-    font-size: 400%;
+    font-size: 150%;
+    padding: 0.5% 2%;
     position: absolute;
     left: 50%;
-    top: 45%;
-    padding: 1% 2%;
     transform: translate(-50%, 0%);
-    background-color: lightgreen;
+
     color: white;
+    background-color: black;
     border: none;
     border-radius: 50px;
-    
-    
+    border: 2px solid white;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out;
+       
+}
+
+#pelaaNappi:hover {
+    background-color: rgb(55, 55, 55);
 }
 
 #buttonWrap {
